@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { TbBrandFiverr } from "react-icons/tb";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -72,6 +73,15 @@ function FixSocialIcon() {
               rel="noopener noreferrer"
             >
               <FaGithub />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="https://www.fiverr.com/drasticadarsh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <TbBrandFiverr />
             </a>
           </li>
         </ul>

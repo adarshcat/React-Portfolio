@@ -34,25 +34,29 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    'Passionate about coding.',
+                    'Freelance developer for hire.',
                     1000,
-                    'A B-Tech Student.',
+                    'Growing one project at a time.',
                     1000,
-                    'A problem solver.',
+                    'Student by degree, dev by passion.',
                     1000,
-                    'An innovative thinker.',
+                    'Future software engineer.',
                     1000,
-                    "Please scroll down to see my projects",
+                    'Always learning, always building.',
+                    1000,
+                    'Building while learning.',
+                    1000,
+                    "Scroll down to explore",
                     1000,
                     () => setShowScrollDown(true),
                     1000,
-                    "See ya! :)",
+                    "See you on the next scroll!",
                     500,
                   ]}
                   speed={50}
                   deletionSpeed={65}
                   wrapper="h5"
-                  repeat={Infinity}
+                  repeat={0}
                 />
               }
             </ScrollAnimation>
