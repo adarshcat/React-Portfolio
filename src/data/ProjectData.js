@@ -19,11 +19,20 @@ export const ProjectList = [
     demo_url: "",
   },
   {
+    img: "/pr-sogl-engine.png",
+    title: "Sogl Engine",
+    description:
+      "A lightweight 3D graphics engine from scratch using C++ and OpenGL. Includes a modular rendering pipeline, scene handling, texture loading, low-level graphics programming, etc.",
+    tech_stack: ["C++", "C", "CMake", "Make", "OpenGL"],
+    github_url: "https://github.com/adarshcat/Sogl-Engine/",
+    demo_url: "",
+  },
+  {
     img: "/pr-ascii-renderer.png",
     title: "ASCII Renderer ",
     description:
       "A lightweight C program that performs custom rasterization to render a rotating 3D cube directly in the terminal, built entirely from scratch with no external libraries.",
-    tech_stack: ["C"],
+    tech_stack: ["C", "CMake", "Make"],
     github_url: "https://github.com/adarshcat/Ascii-Renderer",
     demo_url: "",
   },
@@ -73,6 +82,10 @@ export const stackList = [
     name: "C++",
   },
   {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cmake/cmake-original.svg",
+    name: "CMake",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
     name: "Java",
   },
@@ -87,6 +100,10 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg",
     name: "Godot",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/opengl/opengl-original.svg",
+    name: "OpenGL",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/p5js/p5js-original.svg",
