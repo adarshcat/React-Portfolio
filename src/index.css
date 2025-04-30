@@ -7,11 +7,34 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+:root {
+  --bg-color: #fafaff;
+  --text-color: #151418;
+  --shadow-color: rgba(160, 170, 180, 0.6);
+  --shadow-hover-color: rgba(160, 170, 180, 0.9);
+  --card-background: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.05);
+  --card-shadow2: rgba(0, 0, 0, 0.1);
+  --tech-color: #f5f5f5;
+}
+@media (prefers-color-scheme: dark) {
+    :root  {
+      --bg-color: #121115;
+      --text-color: #e0e0e6;
+      --shadow-color: rgba(28, 65, 97, 0.6);
+      --shadow-hover-color: rgba(28, 65, 97, 0.9);
+      --card-background: #15151a;
+      --card-shadow: rgba(50, 50, 50, 0.05);
+      --card-shadow2: rgba(50, 50, 50, 0.1);
+      --tech-color: #1b1b1b;
+    }
+}
+
 body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafaff;
+  background: var(--bg-color);
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -29,7 +52,6 @@ a {
   color: inherit;
   background-color: transparent;
   transition: 0.2s ease-in;
-
 }
 
 ul,
@@ -76,12 +98,11 @@ video {
 }
 
 .btn-shadow{
-  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
-
+  box-shadow: 0px 2px 5px var(--shadow-color);
 }
 
 .btn-shadow:hover{
-  box-shadow: 0px 3px 8px rgba(160, 170, 180, 0.9);
+  box-shadow: 0px 3px 8px var(--shadow-hover-color);
 }
 
 .PrimaryBtn {
@@ -94,7 +115,7 @@ video {
 .SecondaryBtn{
   padding: 10px 18px;
   border: 2px solid rgb(57, 134, 250);
-  color: #010606;
+  color: var(--text-color);
   margin-right: 1rem;
 }
 
@@ -104,7 +125,7 @@ video {
 
 .SecondaryBtn:hover {
   background: #e7f1fa;
-  color: #000
+  color: #000;
 }
 
 .Container {
@@ -124,15 +145,15 @@ video {
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background: var(--card-background);
+  box-shadow: var(--card-shadow) 0px 5px 10px;
 }
 
 .AboutBio{
   text-align: justify;
   max-width: 750px;
   margin: 0 auto;
-  color: #151418;
+  color: var(--text-color);
   line-height: 1.6;
 }
 
@@ -140,7 +161,7 @@ video {
   text-align: left;
   max-width: 650px;
   margin: 0;
-  color: #151418;
+  color: var(--text-color);
   line-height: 1.6;
 }
 
@@ -151,7 +172,7 @@ video {
 
 .SectionTitle {
   font-size: 28px;
-  color: #151418;
+  color: var(--text-color);
   font-weight: 700;
   margin-bottom: 3.5rem;
 }

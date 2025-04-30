@@ -7,8 +7,8 @@ export const Card = styled.div`
   overflow: hidden;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px -3px var(--card-shadow2),
+    0 4px 6px -2px var(--card-shadow);
   @media (min-width: 992px) {
     border-bottom: 0;
     transform: scale(100%);
@@ -20,6 +20,8 @@ export const Card = styled.div`
     }
   }
 
+  color: var(--text-color);
+  background-color: var(--bg-color);
   cursor: pointer;
 
   hr {
@@ -40,8 +42,8 @@ export const CardTop = styled.div`
     width: 50px;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px -3px var(--card-shadow2),
+    0 4px 6px -2px var(--card-shadow);
     margin-right: 18px;
   }
 `;
