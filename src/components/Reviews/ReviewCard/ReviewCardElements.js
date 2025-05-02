@@ -21,8 +21,8 @@ export const Card = styled.div`
   }
 
   color: var(--text-color);
-  background-color: var(--bg-color);
-  cursor: pointer;
+  background-color: var(--card-background);
+  // cursor: pointer;
 
   hr {
     margin: 15px;
@@ -100,3 +100,8 @@ export const Star = styled.div`
     font-weight: 500;
   }
 `;
+
+export const Link = styled.a`
+  color: var(--text-color);
+  text-decoration: underline;
+`

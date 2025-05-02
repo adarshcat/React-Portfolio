@@ -8,7 +8,8 @@ import {
     CardTopRight,
     CardTopCountry,
     CardContent,
-    Star
+    Star,
+    Link
 } from "./ReviewCardElements"
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -47,6 +48,9 @@ export default function ReviewCard() {
                     </Card>
                 </ScrollAnimation>
             ))}
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+                <Link href="https://www.fiverr.com/drasticadarsh">Find me on Fiverr!</Link>
+            </ScrollAnimation>
         </>
     )
 }

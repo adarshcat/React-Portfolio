@@ -22,21 +22,21 @@ function About() {
           />
         </ScrollAnimation>
           <div className="AboutBio">
-            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-            Hello! My name is <strong>Adarsh Bharti</strong>, and I’m based in India. My journey in the professional world has been shaped by a deep curiosity and a drive to continually learn and grow. Over time, I've taken on various roles that strengthened my adaptability, communication, and problem-solving skills — qualities that I carry with me into every new challenge.
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true} style={{fontWeight: "300"}}>
+            Hello! My name is Adarsh Bharti, and I’m based in India. While I’m currently a student, my journey in the tech world has been shaped by a strong curiosity and a constant desire to learn and grow. Through various personal and freelance projects, I’ve developed adaptability, communication, and problem-solving skills that I bring to every new challenge.
             </ScrollAnimation>
 
-            <br /><br />
+            <br />
             
-            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-            My passion for technology sparked early on, leading me to pursue a path in computer science and software development. I’ve always been fascinated by how ideas can be brought to life through code. This passion has fueled my growth both academically and personally, especially during hands-on projects that allowed me to experiment, learn from mistakes, and collaborate with others.
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true} style={{fontWeight: "300"}}>
+            My passion for technology began early, inspiring me to pursue computer science and software development. I’ve always been fascinated by how ideas can be transformed into real, functional products through code. This enthusiasm has driven my growth both academically and through hands-on experience.
             </ScrollAnimation>
 
-            <br /><br />
+            <br />
 
-            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-            Among the highlights of my journey so far have been the creative and technical challenges of building apps, games, and websites — each one pushing me to become better. I find particular excitement in web development and cross-platform app development, where I can blend creativity with logic to build something people actually use.
-              <div className="tagline2">
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true} style={{fontWeight: "300"}}>
+            One of the most rewarding aspects of my journey has been working on high-quality freelance projects on Fiverr. These real-world experiences have allowed me to take on creative and technical challenges, from building apps and games to designing websites. I especially enjoy web and cross-platform app development, where I get to combine logic and creativity to create things people find useful and engaging.
+              <div className="tagline2" style={{fontWeight: "400"}}>
                 I have become confident using the following technologies:
               </div>
             </ScrollAnimation>

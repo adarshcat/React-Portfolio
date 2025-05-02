@@ -16,17 +16,19 @@
   --card-shadow: rgba(0, 0, 0, 0.05);
   --card-shadow2: rgba(0, 0, 0, 0.1);
   --tech-color: #f5f5f5;
+  --social-icon-color: rgb(119, 119, 121);
 }
 @media (prefers-color-scheme: dark) {
     :root  {
-      --bg-color: #121115;
-      --text-color: #e0e0e6;
+      --bg-color: #19181d;
+      --text-color: #c8c8cc;
       --shadow-color: rgba(28, 65, 97, 0.6);
       --shadow-hover-color: rgba(28, 65, 97, 0.9);
       --card-background: #15151a;
-      --card-shadow: rgba(50, 50, 50, 0.05);
-      --card-shadow2: rgba(50, 50, 50, 0.1);
-      --tech-color: #1b1b1b;
+      --card-shadow: rgba(5, 5, 5, 0.075);
+      --card-shadow2: rgba(5, 5, 5, 0.15);
+      --tech-color: #202020;
+      --social-icon-color: rgb(204, 204, 204);
     }
 }
 
@@ -179,7 +181,6 @@ video {
 .ProjectWrapper {
   margin-top: -1rem;
 }
-
 
 
 /* ------------------------------------ Media for Container */

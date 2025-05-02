@@ -90,6 +90,10 @@ export const stackList = [
     name: "Java",
   },
   {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+    name: "C#",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
   },

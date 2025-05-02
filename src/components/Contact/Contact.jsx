@@ -39,7 +39,7 @@ function Contact() {
                   placement="bottom"
                 >
                   <IconButton  onClick={copyToClipboard} >
-                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }}/>
+                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "var(--text-color)" }}/>
                   </IconButton>
                 </Tooltip>
               </div>

@@ -71,6 +71,13 @@ function Dropdown({ isOpen, toggle }) {
         <NavLink
           onClick={toggle}
           className="menu-item"
+          to="reviews"
+        >
+          Reviews
+        </NavLink>
+        <NavLink
+          onClick={toggle}
+          className="menu-item"
           to="about"
         >
           About
@@ -90,7 +97,7 @@ function Dropdown({ isOpen, toggle }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume
+          LinkedIn
         </a>
       </NavBtn>
     </SiderBar>

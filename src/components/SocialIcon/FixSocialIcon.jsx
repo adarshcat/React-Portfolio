@@ -20,7 +20,7 @@ const SocialContainer = styled.div`
 
   a {
     font-size: 2.3rem;
-    color: rgb(119, 119, 121);
+    color: var(--social-icon-color);
     &:hover {
       color: rgb(57, 134, 250);
     }
@@ -40,7 +40,7 @@ const SocialContainer = styled.div`
 
     a {
       font-size: 2.5rem;
-      color: #151418;
+      color: var(--text-color);
       &:hover {
         color: rgb(57, 134, 250);
       }
