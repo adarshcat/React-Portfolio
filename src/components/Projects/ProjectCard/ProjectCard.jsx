@@ -50,7 +50,7 @@ function ProjectCard() {
                 {list.fiverr_url.length > 0 && (
                   <a
                     className="btn PrimaryBtn btn-shadow"
-                    href={list.demo_url}
+                    href={list.fiverr_url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
