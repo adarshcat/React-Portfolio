@@ -1,13 +1,24 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/pr-kekius-maximus.png",
-    title: "Kekius Maximus",
+    img: "/pr-waffle-king.png",
+    title: "Waffle King",
     description:
       "A 2D arcade-style platformer game built in Godot, featuring responsive controls and polished gameplay for a Fiverr client.",
-    tech_stack: ["Godot", "Aseprite", "Git", "Audacity", "Fiverr"],
+    tech_stack: ["Godot 4", "GDScript", "Aseprite", "Audacity", "Fiverr"],
     github_url: "",
-    demo_url: "https://app.kekiusmaximus.vip/",
+    fiverr_url: "https://www.fiverr.com/drasticadarsh",
+    demo_url: "",
+  },
+  {
+    img: "/pr_moonshot_ga.png",
+    title: "Moonshot Galaxy Ascension",
+    description:
+      "A 2D space exploration and arcade platformer in Godot featuring unlockable content and engaging gameplay. Created for a Fiverr client with attention to gameplay polish and progression systems.",
+    tech_stack: ["Godot 4", "GDScript", "Inkscape", "Audacity", "Fiverr"],
+    github_url: "",
+    fiverr_url: "https://www.fiverr.com/drasticadarsh",
+    demo_url: "",
   },
   {
     img: "/pr-c4-online.png",
@@ -16,6 +27,7 @@ export const ProjectList = [
       "A real-time online multiplayer Connect 4 game with WebSocket networking, built from scratch with a custom Java backend and responsive frontend UI.",
     tech_stack: ["Java", "Jetty", "MySQL", "p5js", "HTML", "CSS", "Javascript"],
     github_url: "https://github.com/adarshcat/C4-Online/",
+    fiverr_url: "",
     demo_url: "",
   },
   {
@@ -25,6 +37,7 @@ export const ProjectList = [
       "A lightweight 3D graphics engine from scratch using C++ and OpenGL. Includes a modular rendering pipeline, scene handling, texture loading, low-level graphics programming, etc.",
     tech_stack: ["C++", "C", "CMake", "Make", "OpenGL"],
     github_url: "https://github.com/adarshcat/Sogl-Engine/",
+    fiverr_url: "",
     demo_url: "",
   },
   {
@@ -34,6 +47,7 @@ export const ProjectList = [
       "A lightweight C program that performs custom rasterization to render a rotating 3D cube directly in the terminal, built entirely from scratch with no external libraries.",
     tech_stack: ["C", "CMake", "Make"],
     github_url: "https://github.com/adarshcat/Ascii-Renderer",
+    fiverr_url: "",
     demo_url: "",
   },
 ];
@@ -125,6 +139,20 @@ export const stackList = [
 
 // --------------------------------------- Reviews
 export const reviewList = [
+  {
+    img: "",
+    name: "zzzzzo",
+    flagImg: "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1e7-1f1ea.png",
+    country: "Belgium",
+    content: "Adarsh is an amazing developer to work with! He delivered every phase of my project with great attention to detail, clear communication, and fast turnaround. The final result is polished, bug-free, and exceeded my expectations. He also added creative suggestions that improved the game even more. I highly recommend him to anyone looking for a reliable and talented developer — I’ll definitely work with him again in the future!",
+  },
+  {
+    img: "",
+    name: "zzzzzo",
+    flagImg: "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1e7-1f1ea.png",
+    country: "Belgium",
+    content: "Absolutely incredible work! Adarsh delivered above and beyond my expectations — fast, professional, and with top-tier quality. The gameplay, UI, features, everything was executed with care and skill. If you're looking for someone who treats your project like their own — this is your guy. Can't wait to work together again! 😁",
+  },
   {
     img: "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/42f729fb0ac7c5adbf673a5697d3d3c5-1539801568675/bfc60bd2-0e50-4c03-973f-756a7583193f.jpg",
     name: "seummeurt",
