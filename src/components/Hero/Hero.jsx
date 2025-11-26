@@ -33,18 +33,16 @@ function Hero() {
                 <TypeAnimation
                   cursor={true}
                   sequence={[
-                    500,
-                    'Freelance developer for hire.',
                     1000,
-                    'Growing one project at a time.',
-                    1000,
-                    'Student by degree, dev by passion.',
-                    1000,
-                    "Scroll down to explore",
-                    1000,
+                    "Programmer.",
+                    1500,
+                    "Building things from the ground up.",
+                    1500,
+                    "Clean code. Clear logic.",
+                    1500,
                     () => setShowScrollDown(true),
-                    1000,
-                    "See you on the next scroll!",
+                    1500,
+                    "There's more to explore below.",
                     500,
                   ]}
                   speed={50}

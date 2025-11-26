@@ -141,17 +141,17 @@ export const stackList = [
 export const reviewList = [
   {
     img: "",
-    name: "zzzzzo",
+    name: "stijnswinnen",
     flagImg: "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1e7-1f1ea.png",
     country: "Belgium",
-    content: "Adarsh is an amazing developer to work with! He delivered every phase of my project with great attention to detail, clear communication, and fast turnaround. The final result is polished, bug-free, and exceeded my expectations. He also added creative suggestions that improved the game even more. I highly recommend him to anyone looking for a reliable and talented developer — I’ll definitely work with him again in the future!",
+    content: "Working with Adarsh has been the best experience I have ever had on a Fiverr project. Adarsh went above and beyond to create our game. He perfectly understood the concept we had in mind, did build on the ideas and concept we had prepared. The game created was better than we had imagined, all delivered within the provided deadline. Adarsh is friendly and a clear communicator. Asking the correct questions to make sure expectations are aligned and gives many updates along the route. Looking for a game to be created? I assure you can trust Adarsh blindly! I am already looking forward to new projects in the future!",
   },
   {
     img: "",
     name: "zzzzzo",
     flagImg: "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1e7-1f1ea.png",
     country: "Belgium",
-    content: "Absolutely incredible work! Adarsh delivered above and beyond my expectations — fast, professional, and with top-tier quality. The gameplay, UI, features, everything was executed with care and skill. If you're looking for someone who treats your project like their own — this is your guy. Can't wait to work together again! 😁",
+    content: "Adarsh is an amazing developer to work with! He delivered every phase of my project with great attention to detail, clear communication, and fast turnaround. The final result is polished, bug-free, and exceeded my expectations. He also added creative suggestions that improved the game even more. I highly recommend him to anyone looking for a reliable and talented developer — I’ll definitely work with him again in the future!",
   },
   {
     img: "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/42f729fb0ac7c5adbf673a5697d3d3c5-1539801568675/bfc60bd2-0e50-4c03-973f-756a7583193f.jpg",
