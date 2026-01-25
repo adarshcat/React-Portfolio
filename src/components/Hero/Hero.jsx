@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import Dropdown from "../Dropdown/Dropdown";
-import Header from "../Header/Header";
+import { useState } from "react";
 import {
   HeroContainer,
   HeroWrapper,
@@ -14,16 +12,10 @@ import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Hero() {
-  const [isOpen, setIsOpen] = useState(false);
   const [showScrollDown, setShowScrollDown] = useState(false);
 
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <main>
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Header toggle={toggle} />
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
