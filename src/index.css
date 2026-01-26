@@ -41,6 +41,13 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
 main {
   background: #151418;
   background-image: url('../public/blob-haikei.svg');

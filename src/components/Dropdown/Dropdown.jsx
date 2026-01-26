@@ -2,6 +2,8 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
+import { scroller } from 'react-scroll';
+import { useLocation, useNavigate } from 'react-router';
 
 const SiderBar = styled.div`
   background: #151418;
@@ -39,7 +41,7 @@ export const NavMenu = styled.div`
   }
 `;
 
-export const NavLink = styled(ScrollLink)`
+export const NavLink = styled.button`
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
@@ -47,6 +49,8 @@ export const NavLink = styled(ScrollLink)`
   &:hover {
     color: rgb(119, 119, 121);
   }
+  background: transparent;
+  border: none;
 `;
 
 export const NavBtn = styled.div`
@@ -57,33 +61,51 @@ export const NavBtn = styled.div`
 `;
 
 function Dropdown({ isOpen, toggle }) {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const goToSection = (sectionName) => {
+    if (location.pathname === "/") {
+      // already on home → normal scroll
+      scroller.scrollTo(sectionName, {
+        smooth: true,
+        duration: 600,
+      });
+    } else {
+      // navigate to home + request scroll after mount
+      navigate("/", { state: { scrollTo: sectionName } });
+    }
+
+    toggle()
+  };
+
   return (
     <SiderBar isOpen={isOpen} onClick={toggle}>
       <CloseIcon onClick={toggle} />
       <NavMenu>
         <NavLink
-          onClick={toggle}
+          onClick={() => goToSection("projects")}
           className="menu-item"
           to="projects"
         >
           Projects
         </NavLink>
         <NavLink
-          onClick={toggle}
+          onClick={() => goToSection("reviews")}
           className="menu-item"
           to="reviews"
         >
           Reviews
         </NavLink>
         <NavLink
-          onClick={toggle}
+          onClick={() => goToSection("about")}
           className="menu-item"
           to="about"
         >
           About
         </NavLink>
         <NavLink
-          onClick={toggle}
+          onClick={() => goToSection("contact")}
           className="menu-item"
           to="contact"
         >

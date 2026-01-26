@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   z-index: 10;
 `;
 
-export const NavLink = styled(ScrollLink)`
+export const NavLink = styled.button`
   color: rgb(119, 119, 121);
   display: flex;
   font-size: 1.2rem;
@@ -21,6 +21,8 @@ export const NavLink = styled(ScrollLink)`
   &:hover {
     color: #f6f6f6;
   }
+  background: transparent;
+  border: none;
 `;
 export const Logo = styled('div')`
   img {
