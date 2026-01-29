@@ -7,12 +7,11 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
 import ScrollToTop from "../components/SocialIcon/ScrollToTop";
-import { useLocation, useNavigate } from 'react-router';
+import { useLocation } from 'react-router';
 import { scroller } from 'react-scroll';
 
 function Home() {
   const location = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     const section = location.state?.scrollTo;

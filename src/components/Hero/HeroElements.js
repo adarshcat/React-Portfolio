@@ -125,3 +125,8 @@ export const ScrollLink = styled.div`
     margin-left: 6px;
   }
 `;
+
+export const DescText = styled.div`
+  font-size: 1.25rem;
+  color: #999999;
+`
