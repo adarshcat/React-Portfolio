@@ -20,3 +20,16 @@ export const Caption = styled.div`
     font-size: 0.95rem;
     text-align: center;
 `
+
+export const Image = styled.img`
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 2.5rem;
+
+    @media (max-width: 1000px) {
+        width: 90%;
+    }
+`

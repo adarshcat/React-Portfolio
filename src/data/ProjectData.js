@@ -7,7 +7,7 @@ export const ProjectList = [
       "A 2D arcade-style platformer game built in Godot, featuring responsive controls and polished gameplay for a Fiverr client.",
     tech_stack: ["Godot 4", "GDScript", "Aseprite", "Audacity", "Fiverr"],
     github_url: "",
-    fiverr_url: "https://www.fiverr.com/drasticadarsh",
+    fiverr_url: "/waffleking",
     demo_url: "",
   },
   {

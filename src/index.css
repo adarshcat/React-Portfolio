@@ -211,7 +211,12 @@ video {
   padding-left: var(--slide-spacing);
 }
 
-.embla__slide_mga_review img, .embla__slide_mga_gameplay img {
+.embla__slide_wk_gameplay {
+  flex: 0 0 55%;
+  padding-left: var(--slide-spacing);
+}
+
+.embla__slide_mga_review img, .embla__slide_mga_gameplay img, .embla__slide_wk_gameplay img {
   border-radius: 16px;
   overflow: hidden;
 }
@@ -224,11 +229,14 @@ video {
 
   .embla__slide_mga_gameplay {
     flex: 0 0 45%;
-    padding-left: var(--slide-spacing);
   }
 
   .embla__slide_mga_review {
     flex: 0 0 80%;
-    padding-left: var(--slide-spacing);
   }
+
+  .embla__slide_wk_gameplay {
+    flex: 0 0 85%;
+  }
+
 }
