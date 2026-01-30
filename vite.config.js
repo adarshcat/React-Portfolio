@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => {
             importPrefixPlugin(),
             htmlPlugin(mode),
         ],
+        base: '/adarshcat.github.io/'
     };
 });
 function setEnv(mode) {
