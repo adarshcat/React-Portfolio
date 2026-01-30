@@ -7,7 +7,7 @@ export const ProjectList = [
       "A 2D arcade-style platformer game built in Godot, featuring responsive controls and polished gameplay for a Fiverr client.",
     tech_stack: ["Godot 4", "GDScript", "Aseprite", "Audacity", "Fiverr"],
     github_url: "",
-    fiverr_url: "/waffleking",
+    fiverr_url: "/#/waffleking",
     demo_url: "",
   },
   {
@@ -17,7 +17,7 @@ export const ProjectList = [
       "A 2D space exploration and arcade platformer in Godot featuring unlockable content and engaging gameplay. Created for a Fiverr client with attention to gameplay polish and progression systems.",
     tech_stack: ["Godot 4", "GDScript", "Inkscape", "Audacity", "Fiverr"],
     github_url: "",
-    fiverr_url: "/moonshotga",
+    fiverr_url: "/#/moonshotga",
     demo_url: "",
   },
   {
