@@ -51,10 +51,10 @@ function ProjectCard() {
                   <a
                     className="btn PrimaryBtn btn-shadow"
                     href={list.fiverr_url}
-                    target="_blank"
+                    // target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View on Fiverr
+                    View
                   </a>
                 )}
               </BtnGroup>

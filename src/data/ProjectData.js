@@ -17,7 +17,7 @@ export const ProjectList = [
       "A 2D space exploration and arcade platformer in Godot featuring unlockable content and engaging gameplay. Created for a Fiverr client with attention to gameplay polish and progression systems.",
     tech_stack: ["Godot 4", "GDScript", "Inkscape", "Audacity", "Fiverr"],
     github_url: "",
-    fiverr_url: "https://www.fiverr.com/drasticadarsh",
+    fiverr_url: "/moonshotga",
     demo_url: "",
   },
   {

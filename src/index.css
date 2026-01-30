@@ -190,10 +190,45 @@ video {
   margin-top: -1rem;
 }
 
+.embla {
+  overflow: hidden;
+  --slide-spacing: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.embla__container {
+  display: flex;
+  margin-left: calc(var(--slide-spacing) * -1); /* Renders -10px */
+}
+
+.embla__slide_mga_gameplay {
+  flex: 0 0 25%;
+  padding-left: var(--slide-spacing);
+}
+
+.embla__slide_mga_review {
+  flex: 0 0 45%;
+  padding-left: var(--slide-spacing);
+}
+
+.embla__slide_mga_review img, .embla__slide_mga_gameplay img {
+  border-radius: 16px;
+  overflow: hidden;
+}
 
 /* ------------------------------------ Media for Container */
 @media (max-width: 1000px) {
   .Container {
     padding: 0;
+  }
+
+  .embla__slide_mga_gameplay {
+    flex: 0 0 45%;
+    padding-left: var(--slide-spacing);
+  }
+
+  .embla__slide_mga_review {
+    flex: 0 0 80%;
+    padding-left: var(--slide-spacing);
   }
 }

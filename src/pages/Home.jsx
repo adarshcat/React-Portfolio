@@ -11,17 +11,18 @@ import { useLocation } from 'react-router';
 import { scroller } from 'react-scroll';
 
 function Home() {
-  const location = useLocation();
+  const location = useLocation()
 
   useEffect(() => {
-    const section = location.state?.scrollTo;
+    const section = location.state?.scrollTo
     if (section) {
       scroller.scrollTo(section, {
         smooth: true,
         duration: 600,
-      });
+      })
+      window.history.replaceState({}, document.title)
     }
-  }, [location]);
+  }, [location])
   return (
     <>
       <Hero />
@@ -33,7 +34,7 @@ function Home() {
       <Footer />
       <ScrollToTop />
     </>
-  );
+  )
 }
 
 export default Home;
