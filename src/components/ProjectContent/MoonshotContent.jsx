@@ -39,12 +39,12 @@ export default function MoonshotContent() {
                 <Carousel
                     slideClass="embla__slide_mga_gameplay"
                     images={
-                        ["/moonshotga/img1.jpg", 
-                            "/moonshotga/img2.jpg", 
-                            "/moonshotga/img3.jpg", 
-                            "/moonshotga/img4.jpg",
-                            "/moonshotga/img5.jpg",
-                            "/moonshotga/img6.jpg"
+                        ["/moonshotga/img1.png", 
+                          "/moonshotga/img2.png", 
+                          "/moonshotga/img3.png", 
+                          "/moonshotga/img4.png",
+                          "/moonshotga/img5.png",
+                          "/moonshotga/img6.png"
                         ]
                     }
                 />
@@ -81,7 +81,8 @@ export default function MoonshotContent() {
                         ["/moonshotga/phase1-review.png", 
                             "/moonshotga/phase2-review.png", 
                             "/moonshotga/phase3-review.png",
-                            "/moonshotga/phase4-review.png"
+                            "/moonshotga/phase4-review.png",
+                            "/moonshotga/phase5-review.png"
                         ]
                     }
                 />
